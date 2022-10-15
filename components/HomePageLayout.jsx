@@ -91,7 +91,7 @@ const HomePageLayout = ({ children }) => {
       </div>
       <div className="drawer-side ">
         <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-        <ul className="menu p-4 overflow-y-auto w-[70%] bg-base-100 border border-red-600">
+        <ul className="menu p-4 overflow-y-auto w-[70%] bg-base-100 ">
           {navItems.map((navItem, i) => (
             <li key={i}>
               <a>{navItem.name}</a>
